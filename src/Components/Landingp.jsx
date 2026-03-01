@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import logo from "../pics/logo.png";
 import hero from "../pics/hero.png";
 
-const LandingPage = () => {
+const LandingP = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -172,4 +172,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default LandingP;

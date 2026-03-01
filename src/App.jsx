@@ -2,13 +2,14 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import LandingPage from './Components/landingpage'
+import LandingP from './Components/Landingp'
+
 
 function App() {
 
   return (
     <>
-    <LandingPage/>
+    <LandingP/>
     </>
   )
 }
